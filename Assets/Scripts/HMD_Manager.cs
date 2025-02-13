@@ -18,6 +18,7 @@ public class HMD_Manager : MonoBehaviour
         }
         else
         {
+            Debug.Log("No HMD detected, using FPS player");
             xrPlayer.SetActive(false);
             fpsPlayer.SetActive(true);
 
