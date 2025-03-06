@@ -34,6 +34,7 @@ public class Lock : MonoBehaviour
         handle.GetComponent<BoxCollider>().enabled = true;
         this.GetComponent<Rigidbody>().isKinematic = false;
         locked = false;
+        this.GetComponent<BoxCollider>().isTrigger = false;
     }
     // Update is called once per frame
     void Update()
