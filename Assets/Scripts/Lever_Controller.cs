@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class LeverController : MonoBehaviour
 {
     public Transform turbine; // Assign turbine GameObject in Inspector
-    public XRGrabInteractable grabInteractable; // Assign in Inspector
+    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable; // Assign in Inspector
     private bool isSpinning = false;
 
     private void Start()
@@ -39,7 +39,7 @@ public class LeverController : MonoBehaviour
             }
         }
 
-        // Apply rotation if turbine is active
+        // Apply rotation if turbine is active 
         if (isSpinning)
         {
             turbine.Rotate(Vector3.forward * 100 * Time.deltaTime);
