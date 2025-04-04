@@ -7,6 +7,10 @@ public class LeverController : MonoBehaviour
 {
     public Transform turbine; // Assign turbine GameObject in Inspector
     public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable; // Assign in Inspector
+
+    public Light redLight;  // Assign the red light in the Inspector
+    public Light greenLight; // Assign the green light in the Inspector
+
     private bool isSpinning = false;
 
     private void Start()
@@ -14,6 +18,9 @@ public class LeverController : MonoBehaviour
         // Add event listener for when the lever is grabbed
         grabInteractable.selectEntered.AddListener(OnLeverGrabbed);
         grabInteractable.selectExited.AddListener(OnLeverReleased);
+
+        // Initialize light states
+        UpdateLightStatus();
     }
 
     private void Update()
@@ -28,6 +35,7 @@ public class LeverController : MonoBehaviour
             {
                 isSpinning = true;
                 Debug.Log("Lever Down! Turbine Activated.");
+                UpdateLightStatus();
             }
         }
         else if (angle < 250 || angle > 290) // When pushed back up
@@ -36,13 +44,28 @@ public class LeverController : MonoBehaviour
             {
                 isSpinning = false;
                 Debug.Log("Lever Up! Turbine Deactivated.");
+                UpdateLightStatus();
             }
         }
 
         // Apply rotation if turbine is active 
         if (isSpinning)
         {
-            turbine.Rotate(Vector3.forward * 100 * Time.deltaTime);
+            turbine.Rotate(Vector3.back * 100 * Time.deltaTime);
+        }
+    }
+
+    private void UpdateLightStatus()
+    {
+        if (isSpinning)
+        {
+            greenLight.enabled = true;
+            redLight.enabled = false;
+        }
+        else
+        {
+            greenLight.enabled = false;
+            redLight.enabled = true;
         }
     }
 
