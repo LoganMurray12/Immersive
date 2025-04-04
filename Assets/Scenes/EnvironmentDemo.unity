@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 38206296cc57add4cbb32a5f58a0d88b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 78674f51bee267845bf8e1458e899d78, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -136,7 +136,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1310367
 Transform:
@@ -388,6 +388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.20764
@@ -450,6 +454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 157068, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 478174, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.643738
@@ -511,6 +519,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -655,6 +667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.882324
@@ -791,6 +807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.29767
@@ -852,6 +872,10 @@ PrefabInstance:
     - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 434366, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1018,6 +1042,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1209,6 +1237,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1459,7 +1491,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.011937745, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 9.804036, y: 2.6852026, z: -7.5062237}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1701,6 +1733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 86.59155
@@ -1870,6 +1906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Tree_Background_Patch_04
       objectReference: {fileID: 0}
+    - target: {fileID: 1862234626290218, guid: cc22510d99ae1e248991db15ef540da0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4530268734010744, guid: cc22510d99ae1e248991db15ef540da0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.380554
@@ -1932,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 85.03769
@@ -1993,6 +2037,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2058,7 +2106,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &59246689
 Transform:
@@ -2109,6 +2157,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2174,7 +2226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &71863865
 Transform:
@@ -2208,6 +2260,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2275,6 +2331,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2503,6 +2563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Tree_Background_Patch_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1976625863328072, guid: 83783d40b06c4d24a93cf52a7b70fc14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4513819750380730, guid: 83783d40b06c4d24a93cf52a7b70fc14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.2323
@@ -2626,6 +2690,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2751,6 +2819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -2820,6 +2892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.912354
@@ -2881,6 +2957,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2973,6 +3053,10 @@ PrefabInstance:
     - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3102,6 +3186,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3358,6 +3446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02
       objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.8525
@@ -3429,6 +3521,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3764,6 +3860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 58.7677
@@ -3825,6 +3925,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3950,6 +4054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 92.92767
@@ -4039,6 +4147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 107.26999
@@ -4100,6 +4212,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -4264,6 +4380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 125.71805
@@ -4385,6 +4505,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -4582,6 +4706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.25
@@ -4674,6 +4802,10 @@ PrefabInstance:
     - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 434366, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4866,6 +4998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.288478
@@ -4970,6 +5106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -62.24231
@@ -5031,6 +5171,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -5198,6 +5342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.69232
@@ -5321,6 +5469,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5446,6 +5598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6318454
@@ -5506,6 +5662,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5569,6 +5729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.93768
@@ -5630,6 +5794,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -5824,6 +5992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2576904
@@ -5920,6 +6092,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6196,6 +6372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.78766
@@ -6350,6 +6530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.09769
@@ -6474,6 +6658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.69931
@@ -6535,6 +6723,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6627,6 +6819,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6814,6 +7010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 108.140015
@@ -6885,6 +7085,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -7021,6 +7225,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7270,6 +7478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.80545
@@ -7393,6 +7605,10 @@ PrefabInstance:
     - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 434366, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7648,6 +7864,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -7911,6 +8131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.337646
@@ -7972,6 +8196,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8096,6 +8324,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8231,6 +8463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.392334
@@ -8355,6 +8591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 85.67789
@@ -8416,6 +8656,10 @@ PrefabInstance:
     - target: {fileID: 1079440412076136, guid: 62c0ec033a16d564bbae14340bd8e728, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sandbag_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079440412076136, guid: 62c0ec033a16d564bbae14340bd8e728, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4241125897555556, guid: 62c0ec033a16d564bbae14340bd8e728, type: 3}
       propertyPath: m_LocalScale.x
@@ -8491,6 +8735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.642334
@@ -8552,6 +8800,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8751,6 +9003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.23297
@@ -8812,6 +9068,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8937,6 +9197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 121878, guid: 95d7c0f5fade0344aad483314886f0fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 480000, guid: 95d7c0f5fade0344aad483314886f0fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.090149
@@ -9060,6 +9324,10 @@ PrefabInstance:
     - target: {fileID: 132014, guid: 16b19d5b7b2ae024bab41e01ee8a37c5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Mangrove_Tree_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 132014, guid: 16b19d5b7b2ae024bab41e01ee8a37c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 495504, guid: 16b19d5b7b2ae024bab41e01ee8a37c5, type: 3}
       propertyPath: m_LocalScale.x
@@ -9197,6 +9465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.20868
@@ -9258,6 +9530,10 @@ PrefabInstance:
     - target: {fileID: 133126, guid: ab08969352dd15648919e529870214e2, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 133126, guid: ab08969352dd15648919e529870214e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 438250, guid: ab08969352dd15648919e529870214e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9383,6 +9659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.27832
@@ -9444,6 +9724,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9636,6 +9920,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.46768
@@ -9698,6 +9986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliff_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1009672486020486, guid: fbf7f84db94874a48a7c63bbc4a805ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4865584573034006, guid: fbf7f84db94874a48a7c63bbc4a805ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 125.51767
@@ -9759,6 +10051,10 @@ PrefabInstance:
     - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9893,6 +10189,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10079,6 +10379,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -10451,6 +10755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.9267364
@@ -10554,6 +10862,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10808,6 +11120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -57.672302
@@ -11056,6 +11372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -53.302307
@@ -11122,6 +11442,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11446,6 +11770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 106.30109
@@ -11569,6 +11897,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11823,6 +12155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 65.109985
@@ -11947,6 +12283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.660675
@@ -12008,6 +12348,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12133,6 +12477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.149475
@@ -12200,6 +12548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -65.1723
@@ -12261,6 +12613,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12447,6 +12803,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -12705,6 +13065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Flowers_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 163448, guid: 289536fb3806f9447a117b250647974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 478270, guid: 289536fb3806f9447a117b250647974d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3546753
@@ -12891,6 +13255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.407654
@@ -12953,6 +13321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.55768
@@ -13014,6 +13386,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -13248,6 +13624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.17401
@@ -13372,6 +13752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.57733
@@ -13433,6 +13817,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13496,6 +13884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Tree_01
       objectReference: {fileID: 0}
+    - target: {fileID: 145966, guid: d295338eb2193c14f9feb82d278c826f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 416924, guid: d295338eb2193c14f9feb82d278c826f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.039246
@@ -13557,6 +13949,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13620,6 +14016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -49.01233
@@ -13681,6 +14081,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -13813,6 +14217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.64790314
@@ -13931,6 +14339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.099976
@@ -14022,6 +14434,10 @@ PrefabInstance:
     - target: {fileID: 121878, guid: 95d7c0f5fade0344aad483314886f0fe, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 121878, guid: 95d7c0f5fade0344aad483314886f0fe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480000, guid: 95d7c0f5fade0344aad483314886f0fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14143,9 +14559,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1663402940257876, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Ramp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4273376941909012, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14209,6 +14633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 134748, guid: 13456bf9422f82d49a114cd90b9dd9d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 476266, guid: 13456bf9422f82d49a114cd90b9dd9d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.11230469
@@ -14270,6 +14698,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14333,6 +14765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -64.31531
@@ -14394,6 +14830,10 @@ PrefabInstance:
     - target: {fileID: 1241237516173584, guid: bd32c1f050fac1e46ae1d7c415024679, type: 3}
       propertyPath: m_Name
       value: SM_Env_Mountains_Snow_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241237516173584, guid: bd32c1f050fac1e46ae1d7c415024679, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4931290207461678, guid: bd32c1f050fac1e46ae1d7c415024679, type: 3}
       propertyPath: m_LocalScale.x
@@ -14717,6 +15157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.05167
@@ -14877,6 +15321,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15082,6 +15530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.33069
@@ -15205,6 +15657,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15397,6 +15853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 69.28436
@@ -15531,6 +15991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Dirt_Mound_Large_02
       objectReference: {fileID: 0}
+    - target: {fileID: 112660, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481480, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.706
@@ -15600,6 +16064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.26767
@@ -15661,6 +16129,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -15793,6 +16265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -15861,6 +16337,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -15943,8 +16423,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741063614}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.41, y: 0.21, z: 12.82}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.5, y: 0.17999999, z: 51.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15965,7 +16445,7 @@ Transform:
   - {fileID: 25331746}
   - {fileID: 18670453}
   - {fileID: 42800993}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1761284107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &741786669
 PrefabInstance:
@@ -15978,6 +16458,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16040,6 +16524,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -16172,6 +16660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80.00769
@@ -16233,6 +16725,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16360,7 +16856,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &754080541
 Transform:
@@ -16408,6 +16904,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -16469,6 +16969,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16532,6 +17036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.17767
@@ -16593,6 +17101,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16749,6 +17261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 89.718994
@@ -16872,6 +17388,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -17148,6 +17668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.80966
@@ -17209,6 +17733,10 @@ PrefabInstance:
     - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_Name
       value: SM_Env_Ocean_Tile_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 444698, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -17546,6 +18074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888005
@@ -17681,6 +18213,10 @@ PrefabInstance:
     - target: {fileID: 105768, guid: 65b27e73a39db504095b263753b7d3d0, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_011
+      objectReference: {fileID: 0}
+    - target: {fileID: 105768, guid: 65b27e73a39db504095b263753b7d3d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 457012, guid: 65b27e73a39db504095b263753b7d3d0, type: 3}
       propertyPath: m_LocalScale.x
@@ -17829,6 +18365,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18182,6 +18722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.99844
@@ -18306,6 +18850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_02
       objectReference: {fileID: 0}
+    - target: {fileID: 134748, guid: 13456bf9422f82d49a114cd90b9dd9d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 476266, guid: 13456bf9422f82d49a114cd90b9dd9d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.522339
@@ -18364,9 +18912,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1022476125520662, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1777808973182438, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Middle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777808973182438, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4128025754819866, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18554,6 +19110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 95.43002
@@ -18615,6 +19175,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18876,6 +19440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.76767
@@ -19010,6 +19578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80.09378
@@ -19133,6 +19705,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19270,6 +19846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.58536
@@ -19331,6 +19911,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -19400,6 +19984,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19525,6 +20113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliff_Small_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1933502898668106, guid: 6840325e0a7fe2b4c9ce8b196a121ab3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4517738340196902, guid: 6840325e0a7fe2b4c9ce8b196a121ab3, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.0993924
@@ -19598,6 +20190,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -19703,6 +20299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.81
@@ -19765,6 +20365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.27765
@@ -19826,6 +20430,10 @@ PrefabInstance:
     - target: {fileID: 1371951432327878, guid: 5b640edfd493a4e46a726bf98cca0c81, type: 3}
       propertyPath: m_Name
       value: SM_Env_Tree_Background_Patch_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371951432327878, guid: 5b640edfd493a4e46a726bf98cca0c81, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4929597493728668, guid: 5b640edfd493a4e46a726bf98cca0c81, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19951,6 +20559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.30768
@@ -20074,6 +20686,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -20273,6 +20889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 69.94766
@@ -20454,6 +21074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.397675
@@ -20515,6 +21139,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20578,6 +21206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 170594, guid: 011da492acc23ee4cb9f34df5235e47b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 408574, guid: 011da492acc23ee4cb9f34df5235e47b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.369995
@@ -20639,6 +21271,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -21358,6 +21994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70.17401
@@ -21419,6 +22059,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21544,6 +22188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9887996
@@ -21613,6 +22261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 76.23999
@@ -21677,7 +22329,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &942340294
 Transform:
@@ -21806,6 +22458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 108.32022
@@ -21924,6 +22580,10 @@ PrefabInstance:
     - target: {fileID: 170594, guid: 011da492acc23ee4cb9f34df5235e47b, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 170594, guid: 011da492acc23ee4cb9f34df5235e47b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 408574, guid: 011da492acc23ee4cb9f34df5235e47b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22056,6 +22716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.79181
@@ -22179,6 +22843,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22304,6 +22972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -22372,6 +23044,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22936,6 +23612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.742004
@@ -23251,6 +23931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Dirt_Mound_Large_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 112660, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481480, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.706
@@ -23381,6 +24065,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23524,7 +24212,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -23563,13 +24251,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.88e-43, y: 9.4e-44, z: 0, w: -7.449343e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -23582,13 +24270,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015845705}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.17875181, y: -0.27914616, z: 0.04292029, w: 0.9424878}
+  m_LocalPosition: {x: -484.7, y: 49.2, z: -94.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 21.156, y: -33.213, z: -1.161}
 --- !u!114 &1015845708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23685,6 +24373,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23929,6 +24621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.22
@@ -23990,6 +24686,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24115,6 +24815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.877686
@@ -24176,6 +24880,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24549,6 +25257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cloud_01
       objectReference: {fileID: 0}
+    - target: {fileID: 112458, guid: b8b36e4f2ff31af4183050ce0e686696, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 481990, guid: b8b36e4f2ff31af4183050ce0e686696, type: 3}
       propertyPath: m_LocalPosition.x
       value: -189.2323
@@ -24610,6 +25322,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25661,6 +26377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.94467
@@ -25779,6 +26499,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25966,6 +26690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5693796
@@ -26028,9 +26756,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1663402940257876, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Ramp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4273376941909012, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26093,6 +26829,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26161,6 +26901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.49472
@@ -26228,6 +26972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 101.137054
@@ -26290,6 +27038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 71.09769
@@ -26351,6 +27103,10 @@ PrefabInstance:
     - target: {fileID: 112660, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
       propertyPath: m_Name
       value: SM_Env_Dirt_Mound_Large_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 112660, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 481480, guid: 224ae92c1357edd4987ed7c71dd93443, type: 3}
       propertyPath: m_LocalScale.x
@@ -26488,6 +27244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 89.43768
@@ -26549,6 +27309,10 @@ PrefabInstance:
     - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Corner_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 439492, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26673,6 +27437,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26929,6 +27697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.8525
@@ -27157,6 +27929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Mangrove_Tree_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 132014, guid: 16b19d5b7b2ae024bab41e01ee8a37c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 495504, guid: 16b19d5b7b2ae024bab41e01ee8a37c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.24230957
@@ -27287,6 +28063,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Railing
       objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -259972160606440404, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 635547659545568360, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
       propertyPath: m_Name
       value: Turbine
@@ -27307,9 +28095,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ladder 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8513859187771203891, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8700725330082129686, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
       propertyPath: m_Name
       value: Ladder 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8700725330082129686, guid: d048f4aebbdb8fa418e7541604d0d0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -27410,6 +28206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.789978
@@ -27471,6 +28271,10 @@ PrefabInstance:
     - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 117988, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 434366, guid: 3d9a43927361a13478cba801affcffb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27596,6 +28400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.73303
@@ -27657,6 +28465,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27782,6 +28594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.456726
@@ -27905,6 +28721,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28104,6 +28924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02
       objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.893616
@@ -28285,6 +29109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.359985
@@ -28404,6 +29232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -28472,6 +29304,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28781,7 +29617,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1208344425
 BoxCollider:
@@ -28880,6 +29716,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29010,6 +29850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.85126
@@ -29133,6 +29977,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -29265,6 +30113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.29999
@@ -29357,6 +30209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Corner_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 439492, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_LocalPosition.x
       value: 85.16766
@@ -29424,6 +30280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.647705
@@ -29485,6 +30345,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -29617,6 +30481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -29685,6 +30553,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -29755,6 +30627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01
       objectReference: {fileID: 0}
+    - target: {fileID: 157068, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 478174, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.8793335
@@ -29816,6 +30692,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30070,6 +30950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 75.55768
@@ -30131,6 +31015,10 @@ PrefabInstance:
     - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30194,6 +31082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.943115
@@ -30255,6 +31147,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -30324,6 +31220,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30479,6 +31379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.55768
@@ -30540,6 +31444,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30788,6 +31696,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -31081,7 +31993,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1301488468
 Transform:
@@ -31110,6 +32022,10 @@ PrefabInstance:
     - target: {fileID: 165080, guid: aaf146f0b1899d54a8a5cf4be35172cd, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 165080, guid: aaf146f0b1899d54a8a5cf4be35172cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 454732, guid: aaf146f0b1899d54a8a5cf4be35172cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -31698,6 +32614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.531677
@@ -31759,6 +32679,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31822,6 +32746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.57233
@@ -31883,6 +32811,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32008,6 +32940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 90.90967
@@ -32069,6 +33005,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32132,6 +33072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.29004
@@ -32193,6 +33137,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32628,6 +33576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.947693
@@ -32933,6 +33885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.869995
@@ -32994,6 +33950,10 @@ PrefabInstance:
     - target: {fileID: 109168, guid: 208fdd3ef1228294c807f19ad1f8a2b3, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Arch_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 109168, guid: 208fdd3ef1228294c807f19ad1f8a2b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 477554, guid: 208fdd3ef1228294c807f19ad1f8a2b3, type: 3}
       propertyPath: m_LocalScale.x
@@ -33069,6 +34029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.048676
@@ -33130,6 +34094,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33441,6 +34409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.447693
@@ -33630,6 +34602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Tree_Large_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1200988908441166, guid: 2eb7f2eec3ac9774eb379dcc56d578cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4675827121932312, guid: 2eb7f2eec3ac9774eb379dcc56d578cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.194031
@@ -33692,6 +34668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.717224
@@ -33753,6 +34733,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33877,6 +34861,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34069,6 +35057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.51767
@@ -34254,6 +35246,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34627,6 +35623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9887996
@@ -34700,6 +35700,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -34834,6 +35838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.8525
@@ -34937,6 +35945,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35066,6 +36078,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35382,6 +36398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.45001
@@ -35443,6 +36463,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -35731,6 +36755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Tree_Background_Patch_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1976625863328072, guid: 83783d40b06c4d24a93cf52a7b70fc14, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4513819750380730, guid: 83783d40b06c4d24a93cf52a7b70fc14, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.2323
@@ -35860,6 +36888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.043335
@@ -35921,6 +36953,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35984,6 +37020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.09927
@@ -36045,6 +37085,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -36297,9 +37341,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1022476125520662, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1777808973182438, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Middle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777808973182438, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4128025754819866, guid: aa4340c359464c240b251ce18b8b6abe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36483,6 +37535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -58.931335
@@ -36545,6 +37601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.63672
@@ -36606,6 +37666,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36855,6 +37919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sandbag_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1079440412076136, guid: 62c0ec033a16d564bbae14340bd8e728, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4241125897555556, guid: 62c0ec033a16d564bbae14340bd8e728, type: 3}
       propertyPath: m_LocalScale.x
       value: 8.065376
@@ -36929,6 +37997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.027466
@@ -36990,6 +38062,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -37184,6 +38260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 157068, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 478174, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7500001
@@ -37259,7 +38339,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1589965805
 BoxCollider:
@@ -37552,6 +38632,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.69183
@@ -37676,6 +38760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.480652
@@ -37742,6 +38830,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -37941,6 +39033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -46.188354
@@ -38065,6 +39161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.791687
@@ -38126,6 +39226,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38237,6 +39341,10 @@ PrefabInstance:
     - target: {fileID: 122516, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 122516, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 426668, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
       propertyPath: m_LocalScale.x
@@ -38368,6 +39476,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38542,6 +39654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.49399
@@ -38608,6 +39724,10 @@ PrefabInstance:
     - target: {fileID: 168556, guid: 5bc229dfc40d9ae47be77c071dfa4e08, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 168556, guid: 5bc229dfc40d9ae47be77c071dfa4e08, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 456174, guid: 5bc229dfc40d9ae47be77c071dfa4e08, type: 3}
       propertyPath: m_LocalScale.x
@@ -38745,6 +39865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.04196
@@ -38868,6 +39992,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39060,6 +40188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 88.95767
@@ -39116,6 +40248,10 @@ PrefabInstance:
     - target: {fileID: 136274, guid: 178878bcf5455764d89195155eee7e66, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 136274, guid: 178878bcf5455764d89195155eee7e66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 455486, guid: 178878bcf5455764d89195155eee7e66, type: 3}
       propertyPath: m_LocalScale.x
@@ -39190,6 +40326,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -39362,6 +40502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -39431,6 +40575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.95001
@@ -39497,6 +40645,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -39571,6 +40723,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39758,6 +40914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.367676
@@ -39819,6 +40979,10 @@ PrefabInstance:
     - target: {fileID: 1009672486020486, guid: fbf7f84db94874a48a7c63bbc4a805ee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliff_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1009672486020486, guid: fbf7f84db94874a48a7c63bbc4a805ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4865584573034006, guid: fbf7f84db94874a48a7c63bbc4a805ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39894,8 +41058,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718602475}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.09, y: 0.03, z: -38.61}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39916,7 +41080,7 @@ Transform:
   - {fileID: 1409895141}
   - {fileID: 303524067}
   - {fileID: 1318035005}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1761284107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1719291774
 PrefabInstance:
@@ -40114,6 +41278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -64.80231
@@ -40175,6 +41343,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40267,6 +41439,10 @@ PrefabInstance:
     - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40388,9 +41564,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1663402940257876, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4273376941909012, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40458,6 +41642,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
@@ -40654,6 +41842,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 106.48001
@@ -40839,6 +42031,10 @@ PrefabInstance:
     - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Corner_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 439492, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41088,6 +42284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -41145,6 +42345,40 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+--- !u!1 &1761284106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1761284107}
+  m_Layer: 0
+  m_Name: Test Beach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1761284107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761284106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.09, y: 0.03, z: -38.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1869492922}
+  - {fileID: 741063615}
+  - {fileID: 1718602476}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1762834725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41218,6 +42452,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -41443,9 +42681,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 942340294}
     m_Modifications:
+    - target: {fileID: 1663402940257876, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_Name
       value: SM_Env_Bridge_Ramp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871550287570702, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4273376941909012, guid: 207238167f1e6ac4baf56134e4eb6508, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41503,6 +42749,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41565,6 +42815,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41826,6 +43080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.88098
@@ -41888,6 +43146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.907654
@@ -41949,6 +43211,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -42098,6 +43364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.64966
@@ -42234,6 +43504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.65875
@@ -42295,6 +43569,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42422,7 +43700,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1812675061
 Transform:
@@ -42632,6 +43910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 84.66766
@@ -42755,6 +44037,10 @@ PrefabInstance:
     - target: {fileID: 151648, guid: 5e7b6b95fb6b328478f2ffbc8cf7f9e5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Mangrove_Tree_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 151648, guid: 5e7b6b95fb6b328478f2ffbc8cf7f9e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 495546, guid: 5e7b6b95fb6b328478f2ffbc8cf7f9e5, type: 3}
       propertyPath: m_LocalScale.x
@@ -42896,6 +44182,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43140,6 +44430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.887665
@@ -43263,6 +44557,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43432,6 +44730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888005
@@ -43563,6 +44865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 95.98001
@@ -43629,6 +44935,10 @@ PrefabInstance:
     - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_Name
       value: SM_Env_Cliffs_Background_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025826431833342, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047351596294166, guid: 3a1236812b33b4d4c82ede03e69c0f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43727,6 +45037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -46.562317
@@ -43789,6 +45103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.620164
@@ -43849,6 +45167,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43912,6 +45234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -55.4823
@@ -43973,6 +45299,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44098,6 +45428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Cliff_Section_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1974962499117540, guid: 680f4329c61a63546981cfbb1da67376, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4622229180638058, guid: 680f4329c61a63546981cfbb1da67376, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3182
@@ -44184,8 +45518,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869492921}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7, y: -0.09, z: 19.02}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.79, y: -0.120000005, z: 57.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44217,7 +45551,7 @@ Transform:
   - {fileID: 1528843040}
   - {fileID: 52022421}
   - {fileID: 373962471}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1761284107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1875727635
 PrefabInstance:
@@ -44230,6 +45564,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44417,6 +45755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.717224
@@ -44478,6 +45820,10 @@ PrefabInstance:
     - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188674, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 430950, guid: 35589ed62073c3e4b9721da43073baee, type: 3}
       propertyPath: m_LocalScale.x
@@ -44582,6 +45928,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44707,6 +46057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.949585
@@ -44774,6 +46128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 157068, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 478174, guid: 4e8a28d96f745674ea61218c6b1c2b0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5233154
@@ -44835,6 +46193,10 @@ PrefabInstance:
     - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_04 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 155572, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 498368, guid: 7d8d31b1c61a40b46ae91ed61b8b2e32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44898,6 +46260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.09326
@@ -44959,6 +46325,10 @@ PrefabInstance:
     - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_Name
       value: SM_Env_Ocean_Tile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 444698, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -45293,6 +46663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -45362,6 +46736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.25232
@@ -45423,6 +46801,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -45566,6 +46948,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45933,6 +47319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.632324
@@ -45994,6 +47384,10 @@ PrefabInstance:
     - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46057,6 +47451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 66.647675
@@ -46118,6 +47516,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46439,6 +47841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.002
@@ -46500,6 +47906,10 @@ PrefabInstance:
     - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -46818,6 +48228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.5437
@@ -46941,6 +48355,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47227,6 +48645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -47296,6 +48718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 166212, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443168, guid: a59634479a2759f4c8cf30a6228a70f4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35.14331
@@ -47357,6 +48783,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47427,7 +48857,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2024761058
 Transform:
@@ -47475,6 +48905,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47780,37 +49214,13 @@ GameObject:
   - component: {fileID: 2032142804}
   - component: {fileID: 2032142803}
   - component: {fileID: 2032142802}
-  - component: {fileID: 2032142801}
   m_Layer: 0
   m_Name: Ocean (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
---- !u!136 &2032142801
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032142800}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &2032142802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -47831,7 +49241,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5a3ff9db0fd8bc145a34f9eaf451c01d, type: 2}
+  - {fileID: 2100000, guid: 6da26fa7f63d03f45889726c575ac38c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47870,8 +49280,8 @@ Transform:
   m_GameObject: {fileID: 2032142800}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.467651, y: -14.216194, z: 27.20796}
-  m_LocalScale: {x: 652.57477, y: -0.09934489, z: 749.97406}
+  m_LocalPosition: {x: 13.468, y: -14.216194, z: 27.208}
+  m_LocalScale: {x: 1183.2485, y: -0.18013215, z: 1359.8529}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 71863865}
@@ -47887,6 +49297,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47950,6 +49364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: 69.086395
@@ -48011,6 +49429,10 @@ PrefabInstance:
     - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Rubble_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 149688, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400516, guid: e905a2ed20075a841b04047a9938e2b4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48337,6 +49759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Flat_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1603220340772660, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4433845634553900, guid: 0951a539665e17f4da3a20fda0f94ba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.66
@@ -48530,6 +49956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Corner_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 136230, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 439492, guid: 85c7b26b02c94d24ab07b617f7ab4d84, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.567688
@@ -48591,6 +50021,10 @@ PrefabInstance:
     - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48723,6 +50157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.682312
@@ -48784,6 +50222,10 @@ PrefabInstance:
     - target: {fileID: 163448, guid: 289536fb3806f9447a117b250647974d, type: 3}
       propertyPath: m_Name
       value: SM_Env_Flowers_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 163448, guid: 289536fb3806f9447a117b250647974d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 478270, guid: 289536fb3806f9447a117b250647974d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48976,6 +50418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_StoneWall_Pillar_01 (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 161372, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 452714, guid: 3546cee4a78370b4fad88b84064e2263, type: 3}
       propertyPath: m_LocalPosition.x
       value: 107.20001
@@ -49038,6 +50484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Mound_Large_01
       objectReference: {fileID: 0}
+    - target: {fileID: 153726, guid: 47ec328e621ea744f8af4fec5ab79181, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 459802, guid: 47ec328e621ea744f8af4fec5ab79181, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.98767
@@ -49094,6 +50544,10 @@ PrefabInstance:
     - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_Name
       value: SM_Env_StoneWall_01 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108844, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443562, guid: 7bd33389c6d2ca445bce59bb990d0f55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49156,6 +50610,10 @@ PrefabInstance:
     - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_Name
       value: SM_Env_Ocean_Tile_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110556, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 444698, guid: a1f656c69d2080948aa8bcd6456962b9, type: 3}
       propertyPath: m_LocalScale.x
@@ -49226,6 +50684,10 @@ PrefabInstance:
     - target: {fileID: 122516, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
       propertyPath: m_Name
       value: SM_Env_Rock_Large_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 122516, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 426668, guid: 2d3f20e70723c1c44bd53c786fdc7b7b, type: 3}
       propertyPath: m_LocalScale.x
@@ -49530,6 +50992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Beach_Edge_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1919220450328572, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4409159995386516, guid: 82f48ccceb52ed149bbca65c02e04e7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9888
@@ -49726,9 +51192,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1015845707}
-  - {fileID: 1869492922}
-  - {fileID: 741063615}
-  - {fileID: 1718602476}
+  - {fileID: 1761284107}
   - {fileID: 1946786988}
   - {fileID: 1838039114}
   - {fileID: 92871796}
