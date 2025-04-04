@@ -61,11 +61,13 @@ public class LeverController : MonoBehaviour
         {
             greenLight.enabled = true;
             redLight.enabled = false;
+            Debug.Log("Green Light on");
         }
         else
         {
             greenLight.enabled = false;
             redLight.enabled = true;
+            Debug.Log("Red Light on");
         }
     }
 
