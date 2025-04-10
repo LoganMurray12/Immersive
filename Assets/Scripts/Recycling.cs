@@ -5,14 +5,30 @@ using UnityEngine;
 public class RecyclingMachine : MonoBehaviour
 {
     [Header("Recycling Output")]
-    public Transform outputSpawnPoint;       // Reference to the output spawn point
-    public GameObject eWastePrefab;          // E-waste cube prefab
+    public Transform outputSpawnPoint;       // Where the e-waste will appear
+    public GameObject eWastePrefab;          // Your Blender e-waste prefab
 
     [Header("Recycle Settings")]
     public float recycleDelay = 1.5f;        // Delay before producing e-waste
+    public float startupDelay = 1f;          // Time after start before recycling can happen
+
+    private bool isReady = false;
+
+    private void Start()
+    {
+        StartCoroutine(EnableRecyclingAfterDelay(startupDelay));
+    }
+
+    private IEnumerator EnableRecyclingAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        isReady = true;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!isReady) return;
+
         if (other.CompareTag("Recycle"))
         {
             StartCoroutine(RecycleItem(other.gameObject));
@@ -21,8 +37,7 @@ public class RecyclingMachine : MonoBehaviour
 
     private IEnumerator RecycleItem(GameObject item)
     {
-        // Optional: Play a sound or effect here
-
+        // Optional: Insert sound or VFX here
         yield return new WaitForSeconds(recycleDelay);
 
         Destroy(item);
