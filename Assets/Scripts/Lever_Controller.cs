@@ -11,6 +11,8 @@ public class LeverController : MonoBehaviour
     public Light redLight;  // Assign the red light in the Inspector
     public Light greenLight; // Assign the green light in the Inspector
 
+    public AudioSource windAudio; // Assign the AudioSource from the turbine in the Inspector
+
     private bool isSpinning = false;
 
     private void Start()
@@ -29,27 +31,37 @@ public class LeverController : MonoBehaviour
         float angle = transform.localEulerAngles.z;
 
         // Ensure correct angle detection (adjust based on hinge joint axis)
-        if (angle > 250 && angle < 290) // Adjust for your lever's rotation
+        if (angle > 250 && angle < 290) // Lever down
         {
             if (!isSpinning)
             {
                 isSpinning = true;
                 Debug.Log("Lever Down! Turbine Activated.");
                 UpdateLightStatus();
+
+                if (windAudio != null && !windAudio.isPlaying)
+                {
+                    windAudio.Play();
+                }
             }
         }
-        else if (angle < 250 || angle > 290) // When pushed back up
+        else // Lever up
         {
             if (isSpinning)
             {
                 isSpinning = false;
                 Debug.Log("Lever Up! Turbine Deactivated.");
                 UpdateLightStatus();
+
+                if (windAudio != null && windAudio.isPlaying)
+                {
+                    windAudio.Stop();
+                }
             }
         }
 
         // Apply rotation if turbine is active 
-        if (isSpinning)
+        if (isSpinning && turbine != null)
         {
             turbine.Rotate(Vector3.back * 100 * Time.deltaTime);
         }
