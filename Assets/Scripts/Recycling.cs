@@ -1,18 +1,26 @@
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class RecyclingMachine : MonoBehaviour
 {
     [Header("Recycling Output")]
-    public Transform outputSpawnPoint;       // Where the e-waste will appear
-    public GameObject eWastePrefab;          // Your Blender e-waste prefab
+    public Transform outputSpawnPoint;
+    public GameObject eWastePrefab;
 
     [Header("Recycle Settings")]
-    public float recycleDelay = 1.5f;        // Delay before producing e-waste
-    public float startupDelay = 1f;          // Time after start before recycling can happen
+    public float recycleDelay = 1.5f;
+    public float startupDelay = 1f;
+
+    [Header("Valid Recyclables")]
+    public List<GameObject> recyclableObjects = new List<GameObject>();
+
+    [Header("Recycling Threshold")]
+    public int requiredItems = 5;
 
     private bool isReady = false;
+    private int recycleCount = 0;
 
     private void Start()
     {
@@ -29,26 +37,38 @@ public class RecyclingMachine : MonoBehaviour
     {
         if (!isReady) return;
 
-        if (other.CompareTag("Recycle"))
+        if (recyclableObjects.Contains(other.gameObject))
         {
-            StartCoroutine(RecycleItem(other.gameObject));
+            UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab = other.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+            if (grab == null || !grab.isSelected)
+            {
+                Debug.Log("Accepted recyclable: " + other.name);
+                StartCoroutine(RecycleItem(other.gameObject));
+            }
         }
     }
 
     private IEnumerator RecycleItem(GameObject item)
     {
-        // Optional: Insert sound or VFX here
         yield return new WaitForSeconds(recycleDelay);
 
         Destroy(item);
+        recycleCount++;
+        Debug.Log("Recycle count: " + recycleCount);
 
-        if (eWastePrefab != null && outputSpawnPoint != null)
+        if (recycleCount >= requiredItems)
         {
-            Instantiate(eWastePrefab, outputSpawnPoint.position, outputSpawnPoint.rotation);
-        }
-        else
-        {
-            Debug.LogWarning("Missing prefab or spawn point on RecyclingMachine script!");
+            recycleCount = 0;
+
+            if (eWastePrefab != null && outputSpawnPoint != null)
+            {
+                Instantiate(eWastePrefab, outputSpawnPoint.position, outputSpawnPoint.rotation);
+                Debug.Log("E-waste created!");
+            }
+            else
+            {
+                Debug.LogWarning("Missing prefab or spawn point!");
+            }
         }
     }
 }
