@@ -16,11 +16,13 @@ public class RecyclingMachine : MonoBehaviour
     [Header("Valid Recyclables")]
     public List<GameObject> recyclableObjects = new List<GameObject>();
 
-    [Header("Recycling Threshold")]
-    public int requiredItems = 5;
+    [Header("Recycling Sound")]
+    public AudioSource recycleSound;
 
     private bool isReady = false;
-    private int recycleCount = 0;
+
+    // Track objects we've already processed
+    private HashSet<GameObject> alreadyRecycled = new HashSet<GameObject>();
 
     private void Start()
     {
@@ -33,42 +35,49 @@ public class RecyclingMachine : MonoBehaviour
         isReady = true;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (!isReady) return;
 
-        if (recyclableObjects.Contains(other.gameObject))
+        GameObject obj = other.gameObject;
+
+        if (recyclableObjects.Contains(obj) && !alreadyRecycled.Contains(obj))
         {
-            UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab = other.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
-            if (grab == null || !grab.isSelected)
+            UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab = obj.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+            if (grab == null || !grab.isSelected) // Only recycle when not being held
             {
-                Debug.Log("Accepted recyclable: " + other.name);
-                StartCoroutine(RecycleItem(other.gameObject));
+                alreadyRecycled.Add(obj); // Prevent multiple triggers
+                Debug.Log("Accepted recyclable (via Stay): " + obj.name);
+                StartCoroutine(RecycleItem(obj));
             }
         }
     }
 
     private IEnumerator RecycleItem(GameObject item)
     {
+        // Play sound immediately
+        if (recycleSound != null)
+        {
+            recycleSound.Play();
+        }
+
+        // Destroy item immediately
+        Destroy(item);
+
+        // Wait before spawning e-waste
         yield return new WaitForSeconds(recycleDelay);
 
-        Destroy(item);
-        recycleCount++;
-        Debug.Log("Recycle count: " + recycleCount);
-
-        if (recycleCount >= requiredItems)
+        if (eWastePrefab != null && outputSpawnPoint != null)
         {
-            recycleCount = 0;
-
-            if (eWastePrefab != null && outputSpawnPoint != null)
-            {
-                Instantiate(eWastePrefab, outputSpawnPoint.position, outputSpawnPoint.rotation);
-                Debug.Log("E-waste created!");
-            }
-            else
-            {
-                Debug.LogWarning("Missing prefab or spawn point!");
-            }
+            Instantiate(eWastePrefab, outputSpawnPoint.position, outputSpawnPoint.rotation);
+            Debug.Log("E-waste created!");
         }
+        else
+        {
+            Debug.LogWarning("Missing prefab or spawn point!");
+        }
+
+        // Optional: Clean up the record for memory safety (not necessary if objects are destroyed)
+        alreadyRecycled.Remove(item);
     }
 }
