@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-
 using UnityEngine;
 
 public class PlugSocket : MonoBehaviour
@@ -11,12 +10,28 @@ public class PlugSocket : MonoBehaviour
 
     private Transform plugToSnap;
 
+    [Header("Audio")]
+    public AudioSource plugInSound; // Assign in Inspector (zap sound)
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(requiredTag) && !isPlugged)
         {
             plugToSnap = other.transform;
-            plugToSnap.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>().enabled = false;
+
+            // Disable grabbing
+            var grabInteractable = plugToSnap.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+            if (grabInteractable != null)
+            {
+                grabInteractable.enabled = false;
+            }
+
+            // Play sound
+            if (plugInSound != null)
+            {
+                plugInSound.Play();
+            }
+
             isPlugged = true;
         }
     }
