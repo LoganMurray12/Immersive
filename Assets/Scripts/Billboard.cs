@@ -8,12 +8,15 @@ public class Billboard : MonoBehaviour
 
     void Start()
     {
-        cam = Camera.main.transform;
+        cam = Camera.main?.transform;
     }
 
     void Update()
     {
-        transform.LookAt(cam);
-        transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y, 0f);
+        if (cam == null) return;
+
+        Vector3 direction = cam.position - transform.position;
+        direction.y = 0f; // Keep upright
+        transform.rotation = Quaternion.LookRotation(direction);
     }
 }
